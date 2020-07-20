@@ -111,7 +111,7 @@ public class DMain extends ListenerAdapter{
 
         ChromeOptions options = new ChromeOptions();
 
-        options.addArguments("--whitelisted-ips='58.121.104.253'");
+        options.addArguments("--whitelisted-ips=\"\"");
         //options.addArguments("--start-maximized");            // 전체화면으로 실행
         options.addArguments("--disable-popup-blocking");    // 팝업 무시
         options.addArguments("--disable-default-apps");     // 기본앱 사용안함
