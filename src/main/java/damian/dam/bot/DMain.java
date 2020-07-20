@@ -101,7 +101,7 @@ public class DMain extends ListenerAdapter{
 
         Message msg = event.getMessage();
         MessageChannel mc = event.getChannel();
-        
+
         JDA jda = event.getJDA();
 
         ChromeOptions options = new ChromeOptions();
