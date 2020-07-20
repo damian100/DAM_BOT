@@ -51,7 +51,7 @@ public class DMain extends ListenerAdapter{
         JDABuilder jb = new JDABuilder(AccountType.BOT);
         jb.setAutoReconnect(true);
         jb.setStatus(OnlineStatus.DO_NOT_DISTURB);
-        jb.setToken("NzMzMTk3NDE3NDY1MzgwOTE0.Xw_p4w.oYouu_QjnyC5fp7IGejZjKdYuvg");
+        jb.setToken(args[0]);
         jb.addEventListeners(new DMain());
 
         jb.build();
