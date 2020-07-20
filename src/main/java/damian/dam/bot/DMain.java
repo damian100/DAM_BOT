@@ -115,6 +115,7 @@ public class DMain extends ListenerAdapter{
         options.addArguments("--disable-default-apps");     // 기본앱 사용안함
         options.addArguments("--no-sandbox");     //
         options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--whitelisted-ips=''");
         // WebDriver 객체 생성
         ChromeDriver driver = new ChromeDriver(options);
         // 빈 탭 생성
