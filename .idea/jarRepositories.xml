@@ -36,5 +36,15 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="notfab" />
+      <option name="name" value="notfab" />
+      <option name="url" value="https://nexus.notfab.net/content/repositories/JDA3" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="bintray" />
+      <option name="url" value="https://jcenter.bintray.com" />
+    </remote-repository>
   </component>
 </project>

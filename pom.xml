@@ -36,7 +36,7 @@
     <repositories>
         <repository>
             <id>notfab</id>
-            <url>http://nexus.notfab.net/content/repositories/JDA3</url>
+            <url>https://nexus.notfab.net/content/repositories/JDA3</url>
         </repository>
         <repository>
             <id>jcenter</id>
@@ -46,7 +46,7 @@
         <repository>
             <id>central</id>
             <name>bintray</name>
-            <url>http://jcenter.bintray.com</url>
+            <url>https://jcenter.bintray.com</url>
         </repository>
     </repositories>
 
@@ -62,14 +62,6 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin -->
-
-        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin -->
-        <dependency>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>1.6.0</version>
         </dependency>
 
     </dependencies>
