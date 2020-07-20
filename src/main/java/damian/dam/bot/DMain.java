@@ -37,6 +37,10 @@ public class DMain extends ListenerAdapter{
 
     public static JDA jda;
     public static String check_data = "none";
+
+    public static final String WEB_DRIVER_ID = "webdriver.chrome.driver";
+    public static final String WEB_DRIVER_PATH = "/usr/local/bin/chromedriver";
+
     public static boolean isStop = false;
     public String predict_str = "";
     private WebElement predict_round;
@@ -44,10 +48,11 @@ public class DMain extends ListenerAdapter{
     private WebElement predict_result_1,predict_result_2,predict_result_3,predict_result_4,predict_result_5;
     private boolean pre_end1, pre_end2, pre_end3, pre_end4, pre_end5;
     public static void main(String[] args) throws LoginException, InterruptedException{
-        Path path = Paths.get(System.getProperty("user.dir"), "src/main/resources/chromedriver");  // 현재 package의
+        //Path path = Paths.get(System.getProperty("user.dir"), "/usr/local/bin/chromedriver");  // 현재 package의
 
         // WebDriver 경로 설정
-        System.setProperty("webdriver.chrome.driver", path.toString());
+        //System.setProperty("webdriver.chrome.driver", path.toString());
+        System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
         JDABuilder jb = new JDABuilder(AccountType.BOT);
         jb.setAutoReconnect(true);
         jb.setStatus(OnlineStatus.DO_NOT_DISTURB);
