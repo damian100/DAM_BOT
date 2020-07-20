@@ -28,7 +28,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.bot.discord.controller.Main</mainClass>
+                    <mainClass>damian.dam.bot.DMain</mainClass>
                 </configuration>
             </plugin>
         </plugins>
