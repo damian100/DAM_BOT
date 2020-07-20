@@ -44,7 +44,7 @@ public class DMain extends ListenerAdapter{
     private WebElement predict_result_1,predict_result_2,predict_result_3,predict_result_4,predict_result_5;
     private boolean pre_end1, pre_end2, pre_end3, pre_end4, pre_end5;
     public static void main(String[] args) throws LoginException, InterruptedException{
-        Path path = Paths.get(System.getProperty("user.dir"), "src/main/resources/chromedriver.exe");  // 현재 package의
+        Path path = Paths.get(System.getProperty("user.dir"), "src/main/resources/chromedriver");  // 현재 package의
 
         // WebDriver 경로 설정
         System.setProperty("webdriver.chrome.driver", path.toString());
